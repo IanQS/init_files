@@ -1,0 +1,6 @@
+{
+  "format": "MMM Do, YYYY",
+  "autorun": true,
+  "folder": "journals",
+  "template": "templates/daily_journal_template"
+}
