@@ -34,7 +34,7 @@ add Control = Control_R
 ```
 
 ```
-/usr/bin/xmodmap /home/<username>/.Xmodmap
+/usr/bin/xmodmap /home/iq/.Xmodmap
 exec i3
 ```
 
@@ -42,12 +42,14 @@ exec i3
 # CMD Line  
 
 ## Applications
-`sudo pacman -Su libxi  libxrender alsa-utils alsa-card-profiles alsa-firmware libxrandr terminator pulseaudio-alsa texlive-fontsextra libxcursor pavucontrol gparted beep texlive-formatsextra texlive-bibtexextra rofi zip sof-firmware py3status texlive-latexextra libxcomposite libxau libxtst alsa-lib libxss alsa-ucm-conf pulseaudio tmux libpqxx redshift mesa-libgl libxdamage texlive-bin libglvnd texlive-core texmaker jre8-openjdk alsa-tools alsa-plugins unzip firefox python-pip chromium`
+```
+sudo pacman -Su libxi  libxrender alsa-utils alsa-card-profiles alsa-firmware libxrandr terminator pulseaudio-alsa texlive-fontsextra libxcursor pavucontrol gparted beep texlive-formatsextra texlive-bibtexextra rofi zip sof-firmware py3status texlive-latexextra libxcomposite libxau libxtst alsa-lib libxss alsa-ucm-conf pulseaudio tmux libpqxx redshift mesa-libgl libxdamage texlive-bin libglvnd texlive-core texmaker jre8-openjdk alsa-tools alsa-plugins unzip firefox python-pip chromium tlp
+```
 
 ## Pamac
 
 ```
-pamac build google-chrome obsidian dropbox cryptomator clion slack-desktop pycharm-professional authy spotify signal-desktop zoom`
+pamac build google-chrome obsidian dropbox cryptomator clion slack-desktop pycharm-professional authy spotify signal-desktop zoom`tlpui
 ```
 
 then run 
@@ -89,7 +91,7 @@ Note: you'll probably need to change the antigen path in .zshrc
 
 # Apps and setup
 
-## From Snapd
+## From pamac
 
 - authy
 
@@ -107,11 +109,24 @@ Note: you'll probably need to change the antigen path in .zshrc
 
 - signal-desktop
 
+- slack
+
 - spotify
 
 - zoom
 
 - zotero
+
+
+## Battery Optimization
+
+From [tlp arch notes](https://wiki.archlinux.org/title/TLP)
+
+```
+sudo systemctl enable tlp.service
+sudo systemctl start tlp.service
+sudo systemctl mask systemd-rfkill.service systemd-rfkill.socket
+```
 
 
 ## Tmux 
@@ -127,27 +142,9 @@ Note: you'll probably need to change the antigen path in .zshrc
 then choose monokai
 
 ## Redshift
- 
-Place the following in `~/.config/redshift/redshift.conf` (which doesn't exist yet)
 
 ```
-[redshift]
-temp-day=5000
-temp-night=3000
-
-fade=1
-
-gamma=0.8
-location-provider=manual
-
-adjustment-method=randr
-
-[manual]
-lat=47.53
-lon=-122
-
-[randr]
-screen=0
+mkdir ~/.config/redshift && cp redshift.conf ~/.config/redshift
 ```
 
 ## Sound

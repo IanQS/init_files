@@ -1,0 +1,12 @@
+{
+  "obsidian-tasks-plugin:toggle-done": [],
+  "obsidian-tasks-plugin:edit-task": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ],
+      "key": "T"
+    }
+  ]
+}
