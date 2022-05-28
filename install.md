@@ -46,20 +46,17 @@ exec i3
 
 ## Pamac
 
-`pamac build mullvad-vpn google-chrome obsidian pamac-desktop dropbox cryptomator`
+```
+pamac build google-chrome obsidian dropbox cryptomator clion slack-desktop pycharm-professional authy spotify signal-desktop zoom`
+```
+
+then run 
+
+```
+pamac build mullvad-vpn 
+```
 
 Do `gpg --receive-keys X` if you get an error about PGP signatures
-
-# Snapd
-
-## Snapd Base
-`cd ~/; git clone https://aur.archlinux.org/snapd.git; cd snapd; makepkg -si; sudo systemctl enable --now snapd.socket; sudo ln -s /var/lib/snapd/snap /snap`
-
-## Snapd Packages
-
-NOTE: THIS IS COVERED ABOVE BUT LEFT FOR POSTERITY`sudo ln -s /var/lib/snapd/snap /snap` to symlink if you run into `Cannot install snap file: snap is unusable due to missing files` or something else 
-
-`sudo snap install clion --classic; sudo snap install slack --classic; sudo snap install pycharm-professional --classic; sudo snap install code --classic && sudo snap install authy; sudo snap install spotify; sudo snap install signal-desktop; sudo snap install zotero-snap; sudo snap install zoom-client`
 
 # Copy configs
 
@@ -96,18 +93,25 @@ Note: you'll probably need to change the antigen path in .zshrc
 
 - authy
 
+- clion
+
 - cryptomator
 
 - dropbox
 
 - mullvad
 
+- obsidian (below)
+
+- pycharm
+
 - signal-desktop
 
 - spotify
 
-- zotero
+- zoom
 
+- zotero
 
 
 ## Tmux 
