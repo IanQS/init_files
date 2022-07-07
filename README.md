@@ -56,7 +56,7 @@ sudo pacman -Su libxi  libxrender alsa-utils alsa-card-profiles alsa-firmware li
 ## Pamac
 
 ```
-pamac build google-chrome dropbox cryptomator clion clion-jre slack-desktop pycharm-professional authy spotify zoom tlpui nvm
+pamac build google-chrome dropbox cryptomator jetbrains-toolbox slack-desktop authy spotify zoom tlpui nvm
 ```
 
 which will probably error out about `JAVA_HOME`. In that case, add 
