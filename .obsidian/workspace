@@ -1,0 +1,246 @@
+{
+  "main": {
+<<<<<<< HEAD
+    "id": "2aefd01228c6d5b4",
+    "type": "split",
+    "children": [
+      {
+        "id": "e8295cf3ce152935",
+=======
+    "id": "8e5637054ca5a997",
+    "type": "split",
+    "children": [
+      {
+        "id": "d5556e6d2c6565cf",
+>>>>>>> 3c51a9b (update)
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "pages/Overarching Goals.md",
+            "mode": "source",
+            "backlinks": true,
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+<<<<<<< HEAD
+    "id": "13da75791aa69f67",
+    "type": "split",
+    "children": [
+      {
+        "id": "cedfe7a6d6f473c7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "fc57b76bcf201033",
+=======
+    "id": "17593ae3d142de02",
+    "type": "split",
+    "children": [
+      {
+        "id": "a2023196829f7a39",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "070f4fcafc64f5a7",
+>>>>>>> 3c51a9b (update)
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+<<<<<<< HEAD
+            "id": "27685c4298f24b93",
+=======
+            "id": "8e2e8e0b782cab8c",
+>>>>>>> 3c51a9b (update)
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+<<<<<<< HEAD
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+=======
+                "query": "/assets/",
+                "matchingCase": true,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": true,
+>>>>>>> 3c51a9b (update)
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+<<<<<<< HEAD
+    "width": 300
+  },
+  "right": {
+    "id": "cad8a7454a808f77",
+    "type": "split",
+    "children": [
+      {
+        "id": "bcb5ff50bfd261c7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2b3dbd007fbe3c26",
+=======
+    "width": 255
+  },
+  "right": {
+    "id": "79811e913e2b4f4b",
+    "type": "split",
+    "children": [
+      {
+        "id": "5087866ad3458e1f",
+        "type": "tabs",
+        "dimension": 42.16990788126919,
+        "children": [
+          {
+            "id": "1a19cebf9d51cfbb",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "pages/Overarching Goals.md"
+              }
+            }
+          },
+          {
+            "id": "220fad5025550e0c",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          },
+          {
+            "id": "edbd7746f8017506",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "3f9e98c326d4f148",
+>>>>>>> 3c51a9b (update)
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "pages/Overarching Goals.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+<<<<<<< HEAD
+            "id": "522e2542d626c70f",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "f279ffbaa3c0e90d",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "pages/Overarching Goals.md"
+              }
+            }
+          },
+          {
+            "id": "ba2fd4a815cb4872",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+=======
+            "id": "9265233c80760de5",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "journals/Feb 8th, 2022.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      },
+      {
+        "id": "2b1b79e5b9158d9f",
+        "type": "tabs",
+        "dimension": 57.83009211873081,
+        "children": [
+          {
+            "id": "28a51e4b61936d0e",
+            "type": "leaf",
+            "state": {
+              "type": "timeline",
+>>>>>>> 3c51a9b (update)
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+<<<<<<< HEAD
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "e8295cf3ce152935",
+  "lastOpenFiles": [
+    "pages/Overarching Goals.md",
+    "journals/Jul 6, 2022.md"
+=======
+    "width": 251
+  },
+  "active": "d5556e6d2c6565cf",
+  "lastOpenFiles": [
+    "pages/Overarching Goals.md",
+    "journals/Jun 11, 2022.md",
+    "pages/soft-actor-critic.md",
+    "journals/Jun 12, 2022.md",
+    "journals/Jun 13, 2022.md",
+    "journals/old/Mar 1st, 2022.md",
+    "journals/old/Apr 4th, 2022.md",
+    "journals/old/Apr 5th, 2022.md",
+    "templates/daily_journal_template.md",
+    "pages/overall.md"
+>>>>>>> 3c51a9b (update)
+  ]
+}

@@ -11,6 +11,13 @@ git config --global user.name "IQ"
 
 `cd ~/; mkdir Personal; cd Personal; git clone git@gitlab.com:ianq/init_files.git`
 
+# Stopping lightdm
+
+was giving infinite loop login issue. Easiest way is to just run 
+
+```
+sudo systemctl disable lightdm.service
+```
 
 # Package Signing
 
@@ -43,16 +50,22 @@ exec i3
 
 ## Applications
 ```
-sudo pacman -Su libxi  libxrender alsa-utils alsa-card-profiles alsa-firmware libxrandr terminator pulseaudio-alsa texlive-fontsextra libxcursor pavucontrol gparted beep texlive-formatsextra texlive-bibtexextra rofi zip sof-firmware py3status texlive-latexextra libxcomposite libxau libxtst alsa-lib libxss alsa-ucm-conf pulseaudio tmux libpqxx redshift mesa-libgl libxdamage texlive-bin libglvnd texlive-core texmaker jre8-openjdk alsa-tools alsa-plugins unzip firefox python-pip chromium tlp
+sudo pacman -Su libxi  libxrender alsa-utils alsa-card-profiles alsa-firmware libxrandr terminator pulseaudio-alsa texlive-fontsextra libxcursor pavucontrol gparted beep texlive-formatsextra texlive-bibtexextra rofi zip sof-firmware py3status texlive-latexextra libxcomposite libxau libxtst alsa-lib libxss alsa-ucm-conf pulseaudio tmux libpqxx redshift mesa-libgl libxdamage texlive-bin libglvnd texlive-core texmaker jre8-openjdk alsa-tools alsa-plugins unzip firefox python-pip chromium tlp obsidian signal-desktop
 ```
 
 ## Pamac
 
 ```
-pamac build google-chrome obsidian dropbox cryptomator clion slack-desktop pycharm-professional authy spotify signal-desktop zoom`tlpui
+pamac build google-chrome dropbox cryptomator clion clion-jre slack-desktop pycharm-professional authy spotify zoom tlpui nvm
 ```
 
-then run 
+which will probably error out about `JAVA_HOME`. In that case, add 
+
+`export JAVA_HOME='/usr/lib/jvm/java-X-openjdk/'`or `sudo archlinux-java set java-X-openjdk`
+
+to the `.profile` (omitted from our default as it's not always applicable)
+
+then visit [rustup](https://rustup.rs/) to install rust
 
 ```
 pamac build mullvad-vpn 
@@ -185,7 +198,7 @@ Move the picture into `/usr/share/backgrounds` and then run nitrogen to change i
 
 ## SSH
 
-Refer to [SSH Docs](ssh_config/README.md)
+Refer to [SSH Docs](https://github.com/IanQS/ssh_setup)
 
 [Arch Linux SSH](https://linuxhint.com/arch_linux_ssh_server/)
 [Setting up SSH](https://zduey.github.io/tutorials/ssh-server-on-home-computer/)

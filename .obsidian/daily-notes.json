@@ -1,5 +1,5 @@
 {
-  "format": "MMM Do, YYYY",
+  "format": "MMM D, YYYY",
   "autorun": true,
   "folder": "journals",
   "template": "templates/daily_journal_template"

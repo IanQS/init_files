@@ -2,14 +2,14 @@
   "obsidian-outliner",
   "obsidian-zoom",
   "obsidian-rollover-daily-todos",
-  "calendar",
   "nldates-obsidian",
   "obsidian-tasks-plugin",
   "obsidian-day-planner",
-  "obsidian-tabs",
-  "obsidian-advanced-slides",
-  "sliding-panes-obsidian",
-  "advanced-toolbar",
-  "juggl",
-  "homepage"
+  "heatmap-calendar",
+  "dataview",
+  "table-editor-obsidian",
+  "calendar",
+  "homepage",
+  "obsidian-chartsview-plugin",
+  "cycle-through-panes"
 ]

@@ -42,5 +42,6 @@
   "trashOption": "local",
   "alwaysUpdateLinks": true,
   "communityPluginSortOrder": "download",
-  "promptDelete": false
+  "promptDelete": false,
+  "readableLineLength": false
 }
